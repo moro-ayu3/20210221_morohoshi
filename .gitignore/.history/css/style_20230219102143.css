@@ -1,0 +1,8 @@
+.homepage {
+  width:100%
+}aa
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;

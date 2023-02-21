@@ -1,0 +1,12 @@
+.homepage {
+  width:100%
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  color: ;
+}
+}
