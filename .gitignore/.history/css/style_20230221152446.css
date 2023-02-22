@@ -10,12 +10,14 @@
   margin-bottom: 15px;
 }
 
-.header-title {
-  width: 30%;
-  height: auto;
+.header-ttl {
+  width: 100%;
   margin-left: 20px;
 }
 
+a {
+  width: 100%;
+}
 .header-list {
   display: flex;
   list-style: none;
@@ -229,7 +231,7 @@
   margin-top: 20px;
 }
 
-.service__first.svg {
+.service_first.svg_1 {
   width: 100%;
 }
 
@@ -258,6 +260,10 @@
 .img-container_service_2 {
   width: 100%;
   text-align: left;
+}
+
+.service_first.svg_2 {
+  width: 100%;
 }
 
 .service-title_4 {

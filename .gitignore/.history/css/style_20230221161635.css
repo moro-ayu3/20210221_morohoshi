@@ -11,9 +11,13 @@
 }
 
 .header-title {
-  width: 30%;
-  height: auto;
+  width: 50%;
+  height: 50%;
   margin-left: 20px;
+}
+
+.estra_logo.png {
+  width: 100%;
 }
 
 .header-list {
@@ -229,7 +233,7 @@
   margin-top: 20px;
 }
 
-.service__first.svg {
+.service_first.svg {
   width: 100%;
 }
 

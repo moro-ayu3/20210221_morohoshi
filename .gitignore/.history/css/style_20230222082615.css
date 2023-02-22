@@ -11,8 +11,7 @@
 }
 
 .header-title {
-  width: 30%;
-  height: auto;
+  width: 20%;
   margin-left: 20px;
 }
 
@@ -229,7 +228,7 @@
   margin-top: 20px;
 }
 
-.service__first.svg {
+.service_first.svg {
   width: 100%;
 }
 

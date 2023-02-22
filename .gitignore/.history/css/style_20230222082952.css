@@ -11,8 +11,7 @@
 }
 
 .header-title {
-  width: 30%;
-  height: auto;
+  width: 10%;
   margin-left: 20px;
 }
 
@@ -74,7 +73,7 @@
 }
 
 .img-container_firstview {
-  width: 100%;
+  width: 0%;
   position: absolute;
   text-align: right;
   z-index: 0;
@@ -229,7 +228,7 @@
   margin-top: 20px;
 }
 
-.service__first.svg {
+.service_first.svg {
   width: 100%;
 }
 
