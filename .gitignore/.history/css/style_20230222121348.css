@@ -256,7 +256,7 @@
 }
 
 .box2 {
-  width: 50%;
+  width: 100%;
   grid-column: 1;
   grid-row: 1;
   background-color: #BA55D3;
@@ -286,7 +286,6 @@
 }
 
 .box3 {
-  width: 50%;
   grid-column: 1;
   grid-row: 1;
   background-color: #d8bfd8;
@@ -319,10 +318,6 @@
 }
 
 .img-container-blog {
-  width: 30%;
-}
-
-.blog__first.jpg {
   width: 100%;
 }
 

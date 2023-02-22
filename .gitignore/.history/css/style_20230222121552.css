@@ -319,12 +319,9 @@
 }
 
 .img-container-blog {
-  width: 30%;
-}
-
-.blog__first.jpg {
   width: 100%;
 }
+
 
 .blog-card-chip {
   font-size: 15px;
