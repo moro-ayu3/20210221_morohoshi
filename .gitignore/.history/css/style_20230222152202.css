@@ -426,9 +426,7 @@ table th {
   font-size: 30px;
   color: #fff;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 50%
 }
 
 .img-interview.png {

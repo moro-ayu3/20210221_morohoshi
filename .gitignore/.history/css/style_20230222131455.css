@@ -11,12 +11,12 @@
 }
 
 .header-title {
-  width: 20px;
+  width: 50px;
   height: auto;
   margin-left: 20px;
 }
 
-.img-estra_logo.png {
+.img estra_logo.png {
   width: 100%;
 }
 
@@ -78,15 +78,15 @@
 }
 
 .img-container_firstview {
-  width: 100%;
+  width: 50%;
   position: absolute;
-  top: 5px;
-  bottom: 5px;
+  top: 15px;
+  bottom: 50px;
   text-align: right;
   z-index: 0;
 }
 
-.img-firstview.jpg {
+.img firstview.jpg {
   width: 100%;
 }
 
@@ -143,7 +143,6 @@
 .about {
   background-color: #dcdcdc;
   width: 100%;
-  height: auto;
 }
 
 .flex-about {
@@ -174,11 +173,12 @@
 }
 .img-container-about {
   width: 100%;
-  margin-left: 300px;
+  position: relative;
+  left: 300px;
   text-align: right;
 }
 
-.img-about.jpg {
+.about.jpg {
   width: 100%;
 }
 
@@ -231,7 +231,7 @@
 }
 
 .img-container-service_1 {
-  width: 50px;
+  width: 30px;
   text-align: center;
   margin-top: 20px;
 }
@@ -314,7 +314,7 @@
 
 .blog-card {
   width: 360px;
-  border-radius: 50px;
+  border-radius: 100%;
   margin: 100px auto 0;
 }
 
@@ -338,7 +338,6 @@
 .blog-content {
   padding: 15px 15px;
   background-color: #fff;
-  width: 80%;
 }
 
 .blog-card-title {
@@ -395,7 +394,6 @@
 table {
   width: 60%;
   border-collapse: collapse;
-  text-align: center;
 }
 
 .company-content {
@@ -414,24 +412,21 @@ table th {
 }
 
 .recruit-interview {
-  position: relative;
+  display: inline-block;
   width:100%;
 }
 
-.img-recruit.png {
+.recruit.png {
   width: 100%
 }
 
 .recruit-title .interview-title {
   font-size: 30px;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.img-interview.png {
+.interview.png {
   width: 100%;
 }
 

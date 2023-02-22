@@ -415,6 +415,7 @@ table th {
 
 .recruit-interview {
   position: relative;
+  
   width:100%;
 }
 
@@ -425,10 +426,7 @@ table th {
 .recruit-title .interview-title {
   font-size: 30px;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .img-interview.png {

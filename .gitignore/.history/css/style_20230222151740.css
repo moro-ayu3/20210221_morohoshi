@@ -395,7 +395,7 @@
 table {
   width: 60%;
   border-collapse: collapse;
-  text-align: center;
+  text-align: ;
 }
 
 .company-content {
@@ -414,24 +414,21 @@ table th {
 }
 
 .recruit-interview {
-  position: relative;
+  display: inline-block;
   width:100%;
 }
 
-.img-recruit.png {
+.recruit.png {
   width: 100%
 }
 
 .recruit-title .interview-title {
   font-size: 30px;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.img-interview.png {
+.interview.png {
   width: 100%;
 }
 

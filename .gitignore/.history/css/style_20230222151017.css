@@ -338,7 +338,7 @@
 .blog-content {
   padding: 15px 15px;
   background-color: #fff;
-  width: 80%;
+  width: 0%;
 }
 
 .blog-card-title {
@@ -395,7 +395,6 @@
 table {
   width: 60%;
   border-collapse: collapse;
-  text-align: center;
 }
 
 .company-content {
@@ -414,24 +413,21 @@ table th {
 }
 
 .recruit-interview {
-  position: relative;
+  display: inline-block;
   width:100%;
 }
 
-.img-recruit.png {
+.recruit.png {
   width: 100%
 }
 
 .recruit-title .interview-title {
   font-size: 30px;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.img-interview.png {
+.interview.png {
   width: 100%;
 }
 
