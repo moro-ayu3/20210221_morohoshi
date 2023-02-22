@@ -76,8 +76,6 @@
 .img-container_firstview {
   width: 100%;
   position: absolute;
-  top: 15px;
-  bottom: 50px;
   text-align: right;
   z-index: 0;
 }

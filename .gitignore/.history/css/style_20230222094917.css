@@ -11,7 +11,7 @@
 }
 
 .header-title {
-  width: 50px;
+  width: 30%;
   height: auto;
   margin-left: 20px;
 }
@@ -76,13 +76,11 @@
 .img-container_firstview {
   width: 100%;
   position: absolute;
-  top: 15px;
-  bottom: 50px;
   text-align: right;
   z-index: 0;
 }
 
-.img-firstview.jpg {
+./imgfirstview.jpg {
   width: 100%;
 }
 
