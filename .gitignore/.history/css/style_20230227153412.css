@@ -364,9 +364,7 @@ ul {
 
 .img-container_service_2 {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  margin: 0 auto;aa
 }
 
 .img-service__first.svg_2 {
@@ -395,8 +393,8 @@ ul {
   flex-direction: row;
   align-items: center;
   position: relative;
-  left: 50px;
-  bottom: 50px;
+  left: 48px;
+  bottom: 48px;
   right: 15px;
   text-align: right;
   margin-bottom: 15px;
@@ -439,8 +437,8 @@ ul {
   flex-direction: row;
   align-items: center;
   position: relative;
-  left: 50px;
-  bottom: 50px;
+  left: 48px;
+  bottom: 48px;
   right: 15px;
   margin-bottom: 15px;
   color: #fff;

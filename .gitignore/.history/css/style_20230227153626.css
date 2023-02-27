@@ -396,7 +396,7 @@ ul {
   align-items: center;
   position: relative;
   left: 50px;
-  bottom: 50px;
+  bottom: px;
   right: 15px;
   text-align: right;
   margin-bottom: 15px;
@@ -439,8 +439,8 @@ ul {
   flex-direction: row;
   align-items: center;
   position: relative;
-  left: 50px;
-  bottom: 50px;
+  left: 48px;
+  bottom: 48px;
   right: 15px;
   margin-bottom: 15px;
   color: #fff;
