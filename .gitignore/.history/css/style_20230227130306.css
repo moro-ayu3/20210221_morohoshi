@@ -191,19 +191,6 @@ ul {
   width: 100%;
   height: auto;
   margin: 0 auto;  
-}
-
-.flex-about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-  
-.about-title {
-  font-size: 15px;
-  color: #C71585;
-  margin-bottom: 15px;
   font-family: "Mynerve", cursive;
 }
 
@@ -293,9 +280,6 @@ ul {
 .grid {
   width:100%;
   margin: 20px auto 50px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .flex-service_1 {
@@ -353,9 +337,9 @@ ul {
 .flex-service_2 {
   width: 50%;
   display: flex;
-  flex-direction: row-reverse;
+  fl
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
