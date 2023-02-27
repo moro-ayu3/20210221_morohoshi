@@ -341,7 +341,7 @@ ul {
 }
 
 .flex-service_3 {
-  width: 50%;
+  width: 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,7 +398,6 @@ ul {
 }
 
 .flex-service_4 {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -279,7 +279,7 @@ ul {
 
 .grid {
   width:80%;
-  margin: 20px auto 50px auto;
+  margin: 80px auto 50px auto;
 }
 
 .flex-service_1 {
@@ -336,12 +336,11 @@ ul {
 .flex-service_2 {
   width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: ;
   align-items: center;
 }
 
 .flex-service_3 {
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,7 +397,6 @@ ul {
 }
 
 .flex-service_4 {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
