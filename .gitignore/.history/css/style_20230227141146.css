@@ -34,7 +34,7 @@
 .firstview {
   position: relative;
   top: 50px;
-  bottom: 50px;
+  bottom: 200px;
   margin-left: 200px;
   z-index: 10;
 }
@@ -213,10 +213,11 @@ ul {
 .about-img-text {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
-  margin-left: 180px;
+  margin-left: 180;
   margin-bottom: 80px;
-  margin-right: 180px;
+  margin-right: auto;;
 }
 
 .about-text {

@@ -34,7 +34,7 @@
 .firstview {
   position: relative;
   top: 50px;
-  bottom: 50px;
+  bottom: 200px;
   margin-left: 200px;
   z-index: 10;
 }
@@ -187,7 +187,8 @@ ul {
 .about {
   background-color: #dcdcdc;
   width: 100%;
-  height: auto; 
+  height: auto;
+  margin: 0 auto;  
 }
 
 .flex-about {
@@ -214,9 +215,9 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-left: 180px;
+  margin-left: 150px;
   margin-bottom: 80px;
-  margin-right: 180px;
+  margin-right: 150px;
 }
 
 .about-text {
@@ -288,7 +289,7 @@ ul {
 }
 
 .grid {
-  width:50%;
+  width:0%;
   margin: 20px auto 50px auto;
   display: flex;
   justify-content: center;
