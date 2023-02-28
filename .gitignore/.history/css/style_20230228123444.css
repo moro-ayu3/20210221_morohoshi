@@ -455,11 +455,9 @@ ul {
 }
 
 .wrapper {
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 20px;
   overflow: hidden;
 }
 
@@ -476,7 +474,7 @@ ul {
   border-radius: 10px 10px 10px 10px;
   position: absolute;
   top: 20px;
-  bottom: 20px;
+  bottom: 0;
 }
 
 .blog__first.jpg {

@@ -327,20 +327,19 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 }
 
 .service-title_3 {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 .service-text_1 {
   font-size: 15px;
   margin-bottom: 15px;
   color: #fff;
+  
 }
 
 .flex-service_2 {
@@ -360,8 +359,7 @@ ul {
 
 .img-container_service-content_2 {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -372,11 +370,16 @@ ul {
 
 .service-content_2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
 .service-title_4 {
+  position: relative;
+  top:-50px;
+  left: -50px;
+  right:100px;
   font-size: 20px;
   font-weight: bold;
   text-align: right;
@@ -385,6 +388,10 @@ ul {
 }
 
 .service-text_2 {
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  right: 15px;
   text-align: right;
   margin-bottom: 15px;
   color: #fff;
@@ -414,6 +421,10 @@ ul {
 }
 
 .service-title_4 {
+  position: relative;
+  top:-50px;
+  left: -50px;
+  right: 100px;
   font-size: 20px;
   font-weight: bold;
   text-align: right;
@@ -422,6 +433,10 @@ ul {
 }
 
 .service-text_2 {
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  right: 15px;
   margin-bottom: 15px;
   color: #fff;
 }
@@ -455,11 +470,9 @@ ul {
 }
 
 .wrapper {
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 20px;
   overflow: hidden;
 }
 
@@ -475,8 +488,8 @@ ul {
   width: 100%;
   border-radius: 10px 10px 10px 10px;
   position: absolute;
-  top: 20px;
-  bottom: 20px;
+  top: -100px;
+  bottom: -100px;
 }
 
 .blog__first.jpg {
@@ -492,8 +505,8 @@ ul {
   width: 30px;
   text-align: left;
   position: relative;
-  top: 0;
-  bottom: 0;
+  top: 35px;
+  bottom: 35px;
 }
 
 .blog-content {

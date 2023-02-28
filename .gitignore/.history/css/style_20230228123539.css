@@ -455,11 +455,10 @@ ul {
 }
 
 .wrapper {
-  width: 100%;
+  width
   display: flex;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 20px;
   overflow: hidden;
 }
 
