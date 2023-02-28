@@ -660,12 +660,12 @@ table th {
   background: linear-gradient(90deg,#ff1493,#C71585);
   box-shadow: 5px 5px 5px #8b0000;
   margin-bottom: 50px;
-  position: relative;
+  position: rela;
 }
 
-.mailicon.svg::after {
+.mailicon.svg::before {
   content: "";
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 15px;
   background: ./img/mailicon.svg no-repeat;

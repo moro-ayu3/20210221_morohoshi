@@ -468,7 +468,7 @@ ul {
 
 .blog-card {
   width: 250px;
-  height: 280px;
+  height: 300px;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
   background-color: #fff;
@@ -488,11 +488,13 @@ ul {
   font-size: 15px;
   color: #fff;
   background-color: #C71585;
-  padding:8px 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding:10px 20px;
   width: 30px;
   text-align: left;
   position: absolute;
-  height: 25px;
+  top: 0;
+  bottom: 0;
 }
 
 .blog-content {
@@ -502,7 +504,7 @@ ul {
 
 .blog-card-title {
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #696969;
 }
 
@@ -651,7 +653,7 @@ table th {
   margin-bottom: 20px;
 }
 
-.form-btn {
+.mailicon.svg {
   width: 300px;
   padding: 15px 0;
   border-radius: 250px;
@@ -660,12 +662,12 @@ table th {
   background: linear-gradient(90deg,#ff1493,#C71585);
   box-shadow: 5px 5px 5px #8b0000;
   margin-bottom: 50px;
-  position: relative;
+  position: absolute;
 }
 
-.mailicon.svg::after {
+.mailicon.svg::before {
   content: "";
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 15px;
   background: ./img/mailicon.svg no-repeat;

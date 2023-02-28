@@ -663,7 +663,7 @@ table th {
   position: relative;
 }
 
-.mailicon.svg::after {
+.mailicon.svg::before {
   content: "";
   position: absolute;
   top: 50%;

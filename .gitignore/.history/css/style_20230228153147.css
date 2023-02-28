@@ -663,9 +663,9 @@ table th {
   position: relative;
 }
 
-.mailicon.svg::after {
+.mailicon.svg::before {
   content: "";
-  position: absolute;
+  position: ab;
   top: 50%;
   left: 15px;
   background: ./img/mailicon.svg no-repeat;

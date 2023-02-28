@@ -663,11 +663,12 @@ table th {
   position: relative;
 }
 
-.mailicon.svg::after {
+.mailicon.svg::before {
   content: "";
   position: absolute;
   top: 50%;
   left: 15px;
+  display: inline-bloc
   background: ./img/mailicon.svg no-repeat;
   background-size: cover;
   width: 30px;
